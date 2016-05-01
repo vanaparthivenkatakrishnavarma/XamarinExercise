@@ -1,0 +1,14 @@
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\XamarinExercise.dll
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\XamarinExercise.pdb
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\obj\Debug\XamarinExercise.dll
+c:\users\madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\obj\Debug\XamarinExercise.pdb
+C:\Users\Madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\obj\Debug\XamarinExercise.csprojResolveAssemblyReference.cache
+C:\Users\Madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Mono.Android.dll
+C:\Users\Madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\Mono.Android.xml
+C:\Users\Madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\obj\Debug\XamarinExercise.dll.mdb
+C:\Users\Madhavi\documents\visual studio 2015\Projects\XamarinExercise\XamarinExercise\XamarinExercise\bin\Debug\XamarinExercise.dll.mdb

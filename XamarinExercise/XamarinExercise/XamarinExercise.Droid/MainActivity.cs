@@ -73,7 +73,7 @@ namespace XamarinExercise.Droid
 
             var animation = AnimationUtils.LoadAnimation(this, Resource.Animation.slide_in_left
                 );
-            animation.Duration = 10000;
+            animation.Duration = 5000;
             animation.SetAnimationListener(this);
             _title.Text = Title;
             _title.StartAnimation(animation);
@@ -130,7 +130,7 @@ namespace XamarinExercise.Droid
                     new Thread(() =>
                     {
                         // reading hex color code from server URL.
-                        var randomData = ReadXml.GetInstance().ReadHexColor();
+                        var randomData = ReadXml.Instance.ReadHexColor();
 
                         RunOnUiThread(() =>
                         {
@@ -155,7 +155,7 @@ namespace XamarinExercise.Droid
                     new Thread(() =>
                     {
                         // reading imageUrl from server URL.
-                        var randomData = ReadXml.GetInstance().ReadImageUrl();
+                        var randomData = ReadXml.Instance.ReadImageUrl();
                         var bitmap = DownloadAndCache(randomData.Data);
 
                         RunOnUiThread(() =>
@@ -317,7 +317,7 @@ namespace XamarinExercise.Droid
 
                                     new Thread(() =>
                                     {
-                                        var randomData = ReadXml.GetInstance().ReadImageUrl();
+                                        var randomData = ReadXml.Instance.ReadImageUrl();
                                         var bitmap = DownloadAndCache(randomData.Data);
 
                                         RunOnUiThread(() =>
@@ -341,7 +341,7 @@ namespace XamarinExercise.Droid
                                 {
                                     new Thread(() =>
                                     {
-                                        var randomData = ReadXml.GetInstance().ReadHexColor();
+                                        var randomData = ReadXml.Instance.ReadHexColor();
 
                                         RunOnUiThread(() =>
                                         {
@@ -467,7 +467,7 @@ namespace XamarinExercise.Droid
 
         public void OnAnimationEnd(Animation animation)
         {
-            animation.Duration = 10000;
+            animation.Duration = 5000;
             animation.SetAnimationListener(this);
             _title.StartAnimation(animation);
         }

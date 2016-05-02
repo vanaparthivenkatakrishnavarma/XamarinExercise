@@ -13,12 +13,29 @@ namespace XamarinExercise
     {
         #region Maintaining Singleton Instance
 
-        public static ReadXml SFetchData;
+        private static ReadXml _instance;
+        private static readonly object Padlock = new object();
 
-        public static ReadXml GetInstance()
+        ReadXml()
         {
-            return SFetchData ?? (SFetchData = new ReadXml());
         }
+
+        public static ReadXml Instance
+        {
+            get
+            {
+                lock (Padlock)
+                {
+                    if (_instance == null)
+                    {
+                        _instance = new ReadXml();
+                    }
+                    return _instance;
+                }
+            }
+        }
+
+
 
         #endregion
 
